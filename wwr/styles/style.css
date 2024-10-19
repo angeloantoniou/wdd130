@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .home-title {
-    color: #ffffff; /* Choose a color that stands out */
+    color: #271377; /* Choose a color that stands out */
 }
 
 h4 {
@@ -129,6 +129,133 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+/* Set the default font size for the body */
+body {
+    font-size: 22px; /* Default font size */
+}
+
+/* Style for the home title */
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em; /* 2em makes it twice the default size (44px) */
+}
+
+/* Styles for .book and .join */
+.book, .join {
+    font-size: 18px; /* Set font size to 18px */
+}
+
+/* Styles for paragraphs inside .msg */
+.msg p {
+    font-size: 0.8em; /* 0.8em makes it smaller than the default size (about 17.6px) */
+}
+
+/* Styles for the .msg section */
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em; /* 1.5 times the font size for line height */
+}
+/* Reset styles for the body */
+body {
+    background-color: #fcfbfb; /* Set background color */
+    font-family: Raleway, Arial, sans-serif; /* Set font family */
+    font-size: 22px; /* Default font size */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Reset margin for h2 elements */
+h2 {
+    margin: 0; /* Remove default margin */
+}
+/* Padding for the logo link */
+#logo_link {
+    padding-top: 5px; /* Space above the logo */
+}
+
+/* Styles for navigation links */
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #281346; /* Set text color */
+    text-align: center; /* Center the text */
+    padding: 35px; /* Space around the navigation links */
+}
+
+/* Padding for book and join buttons */
+.book, .join {
+    padding: 15px 30px; /* Vertical padding of 15px, horizontal padding of 30px */
+}
+
+/* Padding for icons */
+.icon {
+    padding-top: 10px; /* Space above the icon */
+}
+
+/* Padding for the message section */
+.msg {
+    padding: 35px; /* Space around the message section */
+}
+
+/* Padding for paragraphs inside the msg section */
+.msg p {
+    padding-bottom: 15px; /* Space below the paragraph */
+}
+
+/* Padding for the footer */
+footer {
+    padding: 25px 50px; /* Vertical padding of 25px, horizontal padding of 50px */
+}
+
+/* Padding for social images in the footer */
+footer .social img {
+    padding-top: 15px; /* Space above the social images */
+}
+
+/* Margin for the home title */
+.home-title {
+    margin-top: 10px; /* Space above the home title */
+}
+
+/* Styles for book and join buttons */
+.book, .join {
+    background-color: #d9c2a3; /* Background color */
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    padding: 15px 30px; /* Padding for the buttons */
+    margin-top: 50px; /* Space above the buttons */
+}
+
+/* Margin for card elements */
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0; /* Vertical margin of 200px */
+}
+
+/* Margin for the footer */
+footer {
+    margin-top: 200px; /* Space above the footer */
+}
+/* Styles for book and join buttons */
+.book, .join {
+    background-color: #d9c2a3; /* Background color */
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    padding: 15px 30px; /* Padding for the buttons */
+    margin-top: 50px; /* Space above the buttons */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Border for card images */
+.card-img {
+    border: 10px solid #d9c2a3; /* Border color from the site plan */
+}
+
+/* Box-sizing for images in the main section */
+main section img {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 
