@@ -10,7 +10,7 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color:   #d6321c00 ;
   --secondary-color: #14130f ;
-  --accent1-color: #f9f107;
+  --accent1-color: hsl(58, 95%, 50%);
   --accent2-color: rgb(235, 24, 24);
 
   /* change the values below to your chosen font(s) */
@@ -23,10 +23,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white:rgb(235, 24, 24) ; /* paragraph text on a white background */ 
   --paragraph-color-on-color:#14130f ; /* paragraph text on a colored background */ 
   --paragraph-background-color:#d6321c00 ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: #d4ac0d;
-  --nav-hover-background-color: #396E94;
+  --nav-link-color: #14130f;
+  --nav-background-color: hsl(58, 95%, 50%);
+  --nav-hover-link-color: rgb(235, 24, 24);
+  --nav-hover-background-color: #;
 }
 
 
