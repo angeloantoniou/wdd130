@@ -370,7 +370,28 @@ nav {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+
 }
+/* General styles for all images */
+img {
+    max-width: 100%; /* Prevents images from overflowing their containers */
+    height: auto;    /* Maintains aspect ratio */
+}
+
+/* Specific styles for card images */
+.card-img {
+    width: 200px;  /* Set desired width for the card images */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+/* Specific styles for social media icons */
+.Socail img {
+    width: 50px;   /* Set desired size for social media icons */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
