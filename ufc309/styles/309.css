@@ -1,0 +1,111 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: rgb(235,24,24);
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: hsl(58,95%,50%);
+}
+
+nav {
+    height: 70px; /* Adjust the height as needed */
+    background-color: hsl(58,95%,50%); /* Optional background color */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the items vertically */
+    padding: 20px 0;
+}
+
+nav a {
+    margin: 0 20px; /* Space between links */
+    color: rgb(6, 0, 0);
+    text-decoration: none;
+    font-size: 20px; /* Increase font size for larger text */
+    padding: 10px 20px;
+    font-size:18px
+}
+
+
+/* Logo */
+.logo {
+    display: block; /* Makes it a block-level element */
+    margin: 0 auto; /* Centers the logo horizontally */
+    width: 150px; /* Adjust logo size */
+    height: auto;
+}    
+
+
+/* Main Content */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.main-card, .jonesstipe-img {
+    background-color: rgb(253, 252, 252);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(12, 12, 12, 0.926);
+}
+.main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.goat-img {
+    width: 50%; /* Image takes 50% of its container’s width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+    display: block; /* Makes it a block element */
+    margin: 0 auto; /* Centers horizontally */
+}
+
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.Socails a {
+    margin: 0 10px;
+}
+
+.Socails img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
