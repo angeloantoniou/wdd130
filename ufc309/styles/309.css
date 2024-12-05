@@ -120,6 +120,93 @@ footer a {
   /* Add a grey background color on mouse-over */
   .pagination a:hover:not(.active) {background-color: #ddd;}
 
+
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Header Styles */
+header {
+    background-color: #282828;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo_ink img {
+    width: 150px;
+    height: auto;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+.side-grid section {
+    background-color: white;
+    margin: 10px 10px 10px 10px; /* Ensure no top margin */
+    margin-top: 0; /* Add this line to push the section to the top */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.thirdfight, .oliverachandler {
+    margin-bottom: 40px;
+}
+
+.thirdfight img, .comain-img {
+    width: 60%; /* Adjust width to 60% of the container */
+    max-width: 800px; /* Set a maximum size to prevent images from growing too large */
+    margin: 0 auto; /* Center the images within their container */
+    display: block; /* Ensure the images are displayed as block elements */
+    border-radius: 8px;
+}
+/* Footer Styles */
+footer {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+}
+
+.Socails {
+    margin-top: 10px;
+}
+
+.Socails a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     nav a {
