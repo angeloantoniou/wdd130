@@ -205,6 +205,21 @@ footer a {
     width: 30px;
     margin: 0 10px;
 }
+.jone-img, .stipe-img {
+    width: 100%; 
+    max-width: 400px;
+    display: block;
+    margin: 20px auto; /* This line centers the image horizontally */
+    border-radius: 8px;
+}
+.finalpic {
+    width: 100%; /* Full width of its container */
+    max-width: 600px; /* Increase maximum size */
+    display: block;
+    margin: 20px auto; 
+    border-radius: 8px;
+}
+
 
 
 /* Mobile Styles */
